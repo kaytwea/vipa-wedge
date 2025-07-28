@@ -27,9 +27,9 @@ zF = 2000e-3;           % [m] image plane distance from lens
 
 Fc = 300e-3;            % [m] focal length of cylindrical lens
 beam_diam = 5e-3;       % [m] diameter of collimated beam incident on cylindrical lens
-tilt = 0.10;            % [°] tilt angle of VIPA
-theta1 = 0.000;         % [°] lower limit of incident angle range
-theta2 = 0.577;         % [°] upper limit of incident angle range
+tilt = 0.10;            % [Â°] tilt angle of VIPA
+theta1 = 0.000;         % [Â°] lower limit of incident angle range
+theta2 = 0.577;         % [Â°] upper limit of incident angle range
 
 tic
 I = [];                 % full fringe pattern
@@ -42,8 +42,8 @@ toc
 figure()
 plot(xF*1e3,I)
 title({"air-spaced VIPA, input beam w/ finite waist" ...
-    "beam diam = " + beam_diam*1e3 + " mm, \theta = " + theta1 + "° - " + theta2 + "°, tilt = " + tilt + "°, \alpha = " + alpha + " arcsec, zF = " + zF*1e3 + " mm" ...
-    "numray = " + numray + ", p = " + pmax + ", domain resolution: " + (xF(2)-xF(1))*1e6 + " µm"})
+    "beam diam = " + beam_diam*1e3 + " mm, \theta = " + theta1 + "Â° - " + theta2 + "Â°, tilt = " + tilt + "Â°, \alpha = " + alpha + " arcsec, zF = " + zF*1e3 + " mm" ...
+    "numray = " + numray + ", p = " + pmax + ", domain resolution: " + (xF(2)-xF(1))*1e6 + " Âµm"})
 legend(string(k'/100))
 legend off
 xlabel('Image plane [mm]')
