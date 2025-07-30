@@ -1,7 +1,7 @@
 # A model for VIPAs with nonparallel mirrors
 These MATLAB scripts (v2018a) encode the model described in [article under review].  They can compute all fringe pattern data, associated with the computational model, used in the paper.
 
-To download the bundle, click on Code (green button top right) and select Download ZIP.  To download an individiual file, click on the file, then select Download Raw in the upper right of the code viewer; alternatively, copy/paste the code into your own MATLAB editor.
+To download the bundle, click on `Code` (green button top right) and select `Download ZIP`.  To download an individiual file, click on the file, then select `Download raw file` in the upper right of the code viewer; alternatively, copy/paste the code into your own MATLAB editor.
 
 *** Work in progress ***
 
