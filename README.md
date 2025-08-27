@@ -6,8 +6,9 @@ These MATLAB scripts (v2018a) encode the model described in [10.1364/AO.570670](
 
 Note: if computations exceed RAM capacity and trigger virtual memory, runtime is increased considerably.  In such cases, increase the number of domain subdivisions, or reduce other computational parameters.
 
-To download the bundle, click on `Code` (green button top right) and select `Download ZIP`.  To download an individiual file, click on the file, then select `Download raw file` in the upper right of the code viewer; alternatively, copy/paste the code into a MATLAB editor.
+---
 
+To download the bundle, click on `Code` (green button top right) and select `Download ZIP`.  To download an individiual file, click on the file, then select `Download raw file` in the upper right of the code viewer; alternatively, copy/paste the code into a MATLAB editor.
 
 ## Short background
 The virtually-imaged phased array (VIPA) is an etalon with a window that operates as a spectral disperser, like a diffraction grating.  It is typically paired with a lens that images the dispersed spectrum onto an image plane.  As a parallel-plate interferometer, its ideal response to monochromatic input is an Airy fringe pattern.  However, when the VIPA mirrors are not perfectly parallel, nonideal instrument behaviour can arise.
@@ -21,4 +22,4 @@ The model is based on rigorous application of scalar diffraction theory.  Its de
 
 ## Contact
 
-If you have any questions or issues, you can reach me at *firstname.lastname*@mail.utoronto.ca.  I'm the first author on the paper linked above.
+If you have any queries, you can reach me at *firstname.lastname*@mail.utoronto.ca.  I'm the first author on the paper linked above.  (Yes, emailing me is a LVL 1 quest.)
